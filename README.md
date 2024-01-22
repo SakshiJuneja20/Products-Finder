@@ -5,7 +5,7 @@ Products Finder will show the list of products and its details.
 Products Finder is a sample iOS App developed in order to utilize the public APIs for Products and display a list of all products. User can view list of Products and also can view their product details . This app also provides the details for the product such as Product Title, Deescription,Price.
 
 **Technical Specification:**
-Project is developed in Xcode 15.1 and Deploymemt Target is iOS 17.2.
+Project is developed in Xcode 15.1 and Deploymemt Target is iOS 15.0.
 
 **Use cases:**
 To display list of all Products and show details once selected.
