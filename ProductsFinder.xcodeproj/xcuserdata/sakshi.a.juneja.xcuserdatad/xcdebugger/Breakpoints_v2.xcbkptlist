@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "92AFD1AB-F87B-4DF4-BF3D-8E5AF3101A4A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProductsFinderTests/ProductsViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
+            landmarkName = "testGetCountProducts_3products_3()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 2a29a7c9b96bf8bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "1476">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - e50775c4d794b4b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "424">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 46926cc29aa1d2b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "560">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 2a29a7c9b96bf8bc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - e50775c4d794b4b2"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "192">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 46926cc29aa1d2b1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "352">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 2a29a7c9b96bf984"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "1320">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - e50775c4d794b58a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 46926cc29aa1d389"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 2a29a7c9b96bf7ca"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1320">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - e50775c4d794bbc4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "272">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 46926cc29aa1ddc7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "416">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 2a29a7c9b96bf4f3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "2092">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - e50775c4d794b8fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 46926cc29aa1defe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "1172">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 2a29a7c9b96bf9fa"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "2092">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - e50775c4d794b5f4"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1036">
+               </Location>
+               <Location
+                  uuid = "27F6CA8F-6758-4094-92B5-92703AC9E05F - 46926cc29aa1d3f7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "1172">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "96EFD3FF-6166-4008-8B63-EA33468112BE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProductsFinderTests/ProductsViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "testGetProduct_3Products_returnFirstProduct()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "96EFD3FF-6166-4008-8B63-EA33468112BE - 416fe9805af421a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetBeer_3Beer_returnThirdBeer() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "280">
+               </Location>
+               <Location
+                  uuid = "96EFD3FF-6166-4008-8B63-EA33468112BE - 416fe9805af421a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetBeer_3Beer_returnThirdBeer() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "116">
+               </Location>
+               <Location
+                  uuid = "96EFD3FF-6166-4008-8B63-EA33468112BE - 416fe9805af4322"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetBeer_3Beer_returnThirdBeer() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "96EFD3FF-6166-4008-8B63-EA33468112BE - 416fe9805af4322"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetBeer_3Beer_returnThirdBeer() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "53"
+                  endingLineNumber = "53"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "96EFD3FF-6166-4008-8B63-EA33468112BE - 416fe9805af4d74"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetBeer_3Beer_returnThirdBeer() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "132">
+               </Location>
+               <Location
+                  uuid = "96EFD3FF-6166-4008-8B63-EA33468112BE - 416fe9805af4ebe"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetBeer_3Beer_returnThirdBeer() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "73"
+                  endingLineNumber = "73"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  uuid = "96EFD3FF-6166-4008-8B63-EA33468112BE - 416fe9805af4345"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetBeer_3Beer_returnThirdBeer() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "168">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8080295F-E648-4CF8-9648-A2D704000A70"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProductsFinderTests/ProductsViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "ProductsViewModelTests"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "8080295F-E648-4CF8-9648-A2D704000A70 - aed22de32836b60c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProductsFinderTests.ProductsViewModelTests.setUpWithError() throws -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  uuid = "8080295F-E648-4CF8-9648-A2D704000A70 - aed22de32836b60c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProductsFinderTests.ProductsViewModelTests.setUpWithError() throws -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "8080295F-E648-4CF8-9648-A2D704000A70 - aed22de32836b60c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProductsFinderTests.ProductsViewModelTests.setUpWithError() throws -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "8080295F-E648-4CF8-9648-A2D704000A70 - aed22de32836b7d3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProductsFinderTests.ProductsViewModelTests.setUpWithError() throws -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "16"
+                  endingLineNumber = "16"
+                  offsetFromSymbolStart = "32">
+               </Location>
+               <Location
+                  uuid = "8080295F-E648-4CF8-9648-A2D704000A70 - f3a07784afa45937"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProductsFinderTests.ProductsViewModelTests.setUp() -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "52">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "521652E1-AD45-4521-A31A-0E6066D4023C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProductsFinderTests/MockProductsApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "getAllProducts()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "90B621ED-7A92-45B9-B4DA-EBA65DD2B319"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProductsFinderTests/MockProductsApiService.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "getAllProducts()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "90B621ED-7A92-45B9-B4DA-EBA65DD2B319 - 12eaf46f7bfc42f0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ProductsFinderTests.MockProductsApiService.getAllProducts() async throws -&gt; ProductsFinderTests.ProductAPIResponse"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/MockProductsApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "90B621ED-7A92-45B9-B4DA-EBA65DD2B319 - 1028631b3c35dfd3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.MockProductsApiService.getAllProducts() async throws -&gt; ProductsFinderTests.ProductAPIResponse"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/MockProductsApiService.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "538A419A-4219-404A-A52F-3D53F9299DA9"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ProductsFinderTests/ProductsViewModelTests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "testGetCountProducts_3products_3()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - 2a29a7c9b96bf838"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "1192">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - e50775c4d794b436"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - 46926cc29aa1d235"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - 2a29a7c9b96bf64e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1192">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - e50775c4d794ba40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "144">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - 46926cc29aa1dc43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "136">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - 2a29a7c9b96bf64e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - e50775c4d794ba40"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - 46926cc29aa1dc43"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "59"
+                  endingLineNumber = "59"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - 2a29a7c9b96bfb51"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(1) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "1228">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - e50775c4d794b75f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(3) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "180">
+               </Location>
+               <Location
+                  uuid = "538A419A-4219-404A-A52F-3D53F9299DA9 - 46926cc29aa1d15c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "(4) suspend resume partial function for ProductsFinderTests.ProductsViewModelTests.testGetCountBeers_3Beers_3() async -&gt; ()"
+                  moduleName = "ProductsFinderTests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/sakshi.a.juneja/Desktop/ProductsFinder/ProductsFinderTests/ProductsViewModelTests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "36"
+                  endingLineNumber = "36"
+                  offsetFromSymbolStart = "160">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
