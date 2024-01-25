@@ -8,65 +8,94 @@
 import SwiftUI
 
 struct ProductDetailsView: View {
-    var products: ProductsListResponse
-    
+    private enum ProductDetailsViewConstraints: Double {
+        case detailPageImageHeight = 600
+        case detailPageImageWidth = 650
+    }
+    private var product: Product
+
+    init(product: Product) {
+        self.product = product
+    }
+
     var body: some View {
         ScrollView {
-            let url = URL(string: products.thumbnail ?? "")
             VStack(alignment: .leading) {
-                AsyncImage(
-                    url: url,
-                    content: { image in
-                        image.resizable()
-                            .aspectRatio(contentMode: .fit)
-                            .frame(maxWidth: 600, maxHeight: 600)
-                            .clipShape(Circle())
-                    },
-                    placeholder: {
-                        ProgressView()
-                    }
-                )
-                VStack(alignment: .leading, spacing: 40) {
-                    Text(products.title ?? "")
-                        .bold()
-                        .lineLimit(1)
-                    
-                    Text(products.productDescription ?? "")
-                        .font(.caption)
-                        .foregroundColor(.secondary)
-                        .lineLimit(5)
-                    
-                    HStack(spacing: 15) {
-                        Text("Price:")
-                            .bold()
-                            .lineLimit(1)
-                        
-                        Text("\(products.price ?? 0)")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                            .lineLimit(5)
-                    }
-                    HStack(spacing: 15) {
-                        Text("Rating:")
-                            .bold()
-                            .lineLimit(1)
-                        
-                        Text("\(products.rating ?? 0)")
-                            .font(.caption)
-                            .foregroundColor(.secondary)
-                            .lineLimit(5)
-                    }
-                    
-                }
-                .padding(.leading)
+        buildProductImageView(for: product,
+                              imageWidth: ProductDetailsViewConstraints.detailPageImageWidth.rawValue,
+                              imageHeight: ProductDetailsViewConstraints.detailPageImageHeight.rawValue)
+                ProductInformationDetailsView(product: product)
             }
             .padding()
         }
-        .navigationTitle(products.title ?? "")
+        .navigationTitle(product.title ?? "")
         .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 #Preview {
-    ProductDetailsView(products: ProductsListResponse())
+    ProductDetailsView(product: Product())
+}
+
+struct ProductInformationDetailsView: View {
+    private enum ProductInformationViewConstants: String {
+        case productsPriceText = "Price:"
+        case productsRatingText = "Rating:"
+    }
+    private var product: Product
+
+    init(product: Product) {
+        self.product = product
+    }
+
+    var body: some View {
+        VStack(alignment: .leading, spacing: 40) {
+            ProductTitleAndDescriptionView(product: product)
+    ProductDetailsPriceAndRatingView(title: ProductInformationViewConstants.productsPriceText.rawValue,
+                                     value: "\(product.price ?? 0)")
+    ProductDetailsPriceAndRatingView(title: ProductInformationViewConstants.productsRatingText.rawValue,
+                                     value: "\(product.rating ?? 0)")
+        }
+        .padding(.leading)
+    }
+}
+
+struct ProductTitleAndDescriptionView: View {
+    private var product: Product
+
+    init(product: Product) {
+        self.product = product
+    }
+
+    var body: some View {
+        Text(product.title ?? "")
+            .bold()
+            .lineLimit(1)
+        Text(product.productDescription ?? "")
+            .font(.caption)
+            .foregroundColor(.secondary)
+            .lineLimit(5)
+    }
+}
+
+struct ProductDetailsPriceAndRatingView: View {
+    private var title: String
+    private var value: String
+
+    init(title: String, value: String) {
+        self.title = title
+        self.value = value
+    }
+
+    var body: some View {
+        HStack(spacing: 15) {
+            Text(title)
+                .bold()
+                .lineLimit(1)
+            Text(value)
+                .font(.caption)
+                .foregroundColor(.secondary)
+                .lineLimit(5)
+        }
+    }
 }

@@ -23,23 +23,19 @@ enum HttpStatusCode: Int {
     case internalServerError = 500
 }
 
-
 protocol NetworkRequestProtocol {
     func get(request: URLRequest) async throws -> Result<Data, Error>
 }
 
 final class NetworkManager: NetworkRequestProtocol {
-    
     func get(request: URLRequest) async throws -> Result<Data, Error> {
         let (data, response) = try await URLSession.shared.data(for: request)
         return verifyResponse(data: data, response: response)
     }
-    
     private func verifyResponse(data: Data, response: URLResponse) -> Result<Data, Error> {
         guard let httpResponse = response as? HTTPURLResponse else {
             return .failure(APIError.unknown)
         }
-        
         switch httpResponse.statusCode {
         case 200...299:
             return .success(data)
@@ -52,4 +48,3 @@ final class NetworkManager: NetworkRequestProtocol {
         }
     }
 }
-

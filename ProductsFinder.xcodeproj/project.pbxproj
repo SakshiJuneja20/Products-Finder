@@ -8,10 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2E0255292B5C34CC00309508 /* ProductsFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255282B5C34CC00309508 /* ProductsFinderApp.swift */; };
-		2E02552B2B5C34CC00309508 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02552A2B5C34CC00309508 /* ContentView.swift */; };
 		2E02552D2B5C34CE00309508 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E02552C2B5C34CE00309508 /* Assets.xcassets */; };
 		2E0255312B5C34CE00309508 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E0255302B5C34CE00309508 /* Preview Assets.xcassets */; };
-		2E02553B2B5C34CF00309508 /* ProductsFinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02553A2B5C34CF00309508 /* ProductsFinderTests.swift */; };
 		2E0255452B5C34CF00309508 /* ProductsFinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255442B5C34CF00309508 /* ProductsFinderUITests.swift */; };
 		2E0255472B5C34CF00309508 /* ProductsFinderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255462B5C34CF00309508 /* ProductsFinderUITestsLaunchTests.swift */; };
 		2E0255542B5C350C00309508 /* ProductResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255532B5C350C00309508 /* ProductResponseModel.swift */; };
@@ -23,7 +21,6 @@
 		2E0255642B5C36DE00309508 /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255632B5C36DE00309508 /* ProductDetailsView.swift */; };
 		2E0255692B5C519E00309508 /* ProductsViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255682B5C519E00309508 /* ProductsViewModelTests.swift */; };
 		2E02556B2B5C55D400309508 /* MockProductsApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02556A2B5C55D400309508 /* MockProductsApiService.swift */; };
-		2E02556C2B5C56CF00309508 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02552A2B5C34CC00309508 /* ContentView.swift */; };
 		2E02556D2B5C56D200309508 /* ProductCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02555F2B5C369500309508 /* ProductCellView.swift */; };
 		2E02556F2B5C56D700309508 /* ProductDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255632B5C36DE00309508 /* ProductDetailsView.swift */; };
 		2E0255702B5C56D900309508 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255552B5C354300309508 /* NetworkManager.swift */; };
@@ -32,6 +29,11 @@
 		2E0255742B5C56E400309508 /* ProductApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02555B2B5C35C400309508 /* ProductApiService.swift */; };
 		2E0255752B5C56E600309508 /* ProductsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E02555D2B5C363200309508 /* ProductsViewModel.swift */; };
 		2E0255762B5C56E900309508 /* ProductsFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255282B5C34CC00309508 /* ProductsFinderApp.swift */; };
+		2E2C69202B62E3440033D47E /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C691F2B62E3440033D47E /* ProductImageView.swift */; };
+		2E2C69212B62E5E20033D47E /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C691F2B62E3440033D47E /* ProductImageView.swift */; };
+		2EF92F672B62BAA200791113 /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF92F662B62BAA200791113 /* ProductsListView.swift */; };
+		2EF92F682B62BAC200791113 /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF92F662B62BAA200791113 /* ProductsListView.swift */; };
+		2EF92F6B2B62BE5300791113 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2EF92F6A2B62BE5300791113 /* .swiftlint.yml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,12 +56,10 @@
 /* Begin PBXFileReference section */
 		2E0255252B5C34CC00309508 /* ProductsFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProductsFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0255282B5C34CC00309508 /* ProductsFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsFinderApp.swift; sourceTree = "<group>"; };
-		2E02552A2B5C34CC00309508 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2E02552C2B5C34CE00309508 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E02552E2B5C34CE00309508 /* ProductsFinder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ProductsFinder.entitlements; sourceTree = "<group>"; };
 		2E0255302B5C34CE00309508 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2E0255362B5C34CF00309508 /* ProductsFinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductsFinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2E02553A2B5C34CF00309508 /* ProductsFinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsFinderTests.swift; sourceTree = "<group>"; };
 		2E0255402B5C34CF00309508 /* ProductsFinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProductsFinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0255442B5C34CF00309508 /* ProductsFinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsFinderUITests.swift; sourceTree = "<group>"; };
 		2E0255462B5C34CF00309508 /* ProductsFinderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsFinderUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -73,6 +73,9 @@
 		2E0255672B5C3B5500309508 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		2E0255682B5C519E00309508 /* ProductsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModelTests.swift; sourceTree = "<group>"; };
 		2E02556A2B5C55D400309508 /* MockProductsApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProductsApiService.swift; sourceTree = "<group>"; };
+		2E2C691F2B62E3440033D47E /* ProductImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageView.swift; sourceTree = "<group>"; };
+		2EF92F662B62BAA200791113 /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
+		2EF92F6A2B62BE5300791113 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +151,6 @@
 		2E0255392B5C34CF00309508 /* ProductsFinderTests */ = {
 			isa = PBXGroup;
 			children = (
-				2E02553A2B5C34CF00309508 /* ProductsFinderTests.swift */,
 				2E0255682B5C519E00309508 /* ProductsViewModelTests.swift */,
 				2E02556A2B5C55D400309508 /* MockProductsApiService.swift */,
 			);
@@ -168,9 +170,10 @@
 			isa = PBXGroup;
 			children = (
 				2E0255282B5C34CC00309508 /* ProductsFinderApp.swift */,
-				2E02552A2B5C34CC00309508 /* ContentView.swift */,
+				2EF92F662B62BAA200791113 /* ProductsListView.swift */,
 				2E02555F2B5C369500309508 /* ProductCellView.swift */,
 				2E0255632B5C36DE00309508 /* ProductDetailsView.swift */,
+				2E2C691F2B62E3440033D47E /* ProductImageView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 			isa = PBXGroup;
 			children = (
 				2E02552C2B5C34CE00309508 /* Assets.xcassets */,
+				2EF92F6A2B62BE5300791113 /* .swiftlint.yml */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -237,6 +241,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2E2C691C2B62D59D0033D47E /* PBXTargetDependency */,
 			);
 			name = ProductsFinder;
 			productName = ProductsFinder;
@@ -311,6 +316,9 @@
 				Base,
 			);
 			mainGroup = 2E02551C2B5C34CC00309508;
+			packageReferences = (
+				2E8BFB072B62D49E009B7D00 /* XCRemoteSwiftPackageReference "SwiftLint" */,
+			);
 			productRefGroup = 2E0255262B5C34CC00309508 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -327,6 +335,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF92F6B2B62BE5300791113 /* .swiftlint.yml in Resources */,
 				2E0255312B5C34CE00309508 /* Preview Assets.xcassets in Resources */,
 				2E02552D2B5C34CE00309508 /* Assets.xcassets in Resources */,
 			);
@@ -353,13 +362,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2EF92F672B62BAA200791113 /* ProductsListView.swift in Sources */,
 				2E0255562B5C354300309508 /* NetworkManager.swift in Sources */,
 				2E0255602B5C369500309508 /* ProductCellView.swift in Sources */,
 				2E02555C2B5C35C400309508 /* ProductApiService.swift in Sources */,
+				2E2C69202B62E3440033D47E /* ProductImageView.swift in Sources */,
 				2E02555E2B5C363300309508 /* ProductsViewModel.swift in Sources */,
 				2E0255542B5C350C00309508 /* ProductResponseModel.swift in Sources */,
 				2E0255642B5C36DE00309508 /* ProductDetailsView.swift in Sources */,
-				2E02552B2B5C34CC00309508 /* ContentView.swift in Sources */,
 				2E0255582B5C358E00309508 /* APIConstant.swift in Sources */,
 				2E0255292B5C34CC00309508 /* ProductsFinderApp.swift in Sources */,
 			);
@@ -373,12 +383,12 @@
 				2E0255762B5C56E900309508 /* ProductsFinderApp.swift in Sources */,
 				2E0255752B5C56E600309508 /* ProductsViewModel.swift in Sources */,
 				2E0255692B5C519E00309508 /* ProductsViewModelTests.swift in Sources */,
-				2E02556C2B5C56CF00309508 /* ContentView.swift in Sources */,
+				2EF92F682B62BAC200791113 /* ProductsListView.swift in Sources */,
 				2E0255702B5C56D900309508 /* NetworkManager.swift in Sources */,
 				2E0255742B5C56E400309508 /* ProductApiService.swift in Sources */,
 				2E02556F2B5C56D700309508 /* ProductDetailsView.swift in Sources */,
+				2E2C69212B62E5E20033D47E /* ProductImageView.swift in Sources */,
 				2E0255712B5C56DC00309508 /* ProductResponseModel.swift in Sources */,
-				2E02553B2B5C34CF00309508 /* ProductsFinderTests.swift in Sources */,
 				2E0255722B5C56DE00309508 /* APIConstant.swift in Sources */,
 				2E02556D2B5C56D200309508 /* ProductCellView.swift in Sources */,
 			);
@@ -405,6 +415,10 @@
 			isa = PBXTargetDependency;
 			target = 2E0255242B5C34CC00309508 /* ProductsFinder */;
 			targetProxy = 2E0255412B5C34CF00309508 /* PBXContainerItemProxy */;
+		};
+		2E2C691C2B62D59D0033D47E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			productRef = 2E2C691B2B62D59D0033D47E /* SwiftLintPlugin */;
 		};
 /* End PBXTargetDependency section */
 
@@ -446,7 +460,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -508,7 +522,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -725,6 +739,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2E8BFB072B62D49E009B7D00 /* XCRemoteSwiftPackageReference "SwiftLint" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/SwiftLint.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.54.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2E2C691B2B62D59D0033D47E /* SwiftLintPlugin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2E8BFB072B62D49E009B7D00 /* XCRemoteSwiftPackageReference "SwiftLint" */;
+			productName = "plugin:SwiftLintPlugin";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 2E02551D2B5C34CC00309508 /* Project object */;
 }

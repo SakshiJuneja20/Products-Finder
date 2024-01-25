@@ -18,11 +18,11 @@ enum ProductAPIError: Error {
 
 final class ProductsAPIService: ProductsAPIProtocol {
     private let networkManager: NetworkRequestProtocol
-    
+
     init(networkManager: NetworkRequestProtocol = NetworkManager()) {
         self.networkManager = networkManager
     }
-    
+
     // MARK: - Get all products list data from server
     func getAllProducts() async throws -> ProductAPIResponse {
         guard let apiURL = URL(string: APIConstants.apiURL) else {

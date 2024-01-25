@@ -7,35 +7,30 @@
 
 import Foundation
 
-class ProductsViewModel: ObservableObject {
-    @Published var products: [ProductsListResponse] = []
-    @Published var error: Error? = nil
-    var service: ProductsAPIProtocol
-    
+protocol ProductsViewModelProtocol: ObservableObject {
+    func loadAllProducts() async throws
+}
+
+final class ProductsViewModel: ProductsViewModelProtocol {
+    @Published var products: [Product] = []
+    @Published var error: Error?
+    private var service: ProductsAPIProtocol
+
     init(service: ProductsAPIProtocol) {
         self.service = service
     }
-    
-    // MARK: - Get Products list count
-    func getProductsCount() -> Int {
-        return products.count
-    }
-    
-    // MARK: - Get Products title for specific cell
-    func getProductTitle(for indexPath: Int) -> String? {
-        guard indexPath == 0, indexPath >= 0 else { return nil }
-        return products[indexPath].title
-    }
-    
+
     // MARK: - Load all products list data
     func loadAllProducts() async throws {
         do {
             let list = try await service.getAllProducts()
             DispatchQueue.main.async {
-                self.products = list.products!
+                guard let products = list.products else { return }
+                self.products = products
             }
         } catch let error {
+            print(error.localizedDescription)
             self.error = error
         }
-    }    
+    }
 }

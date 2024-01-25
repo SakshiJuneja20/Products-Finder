@@ -11,7 +11,7 @@ import SwiftUI
 struct ProductsFinderApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ProductsListView(viewModel: ProductsViewModel(service: ProductsAPIService()))
         }
     }
 }

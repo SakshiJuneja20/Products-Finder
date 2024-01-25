@@ -9,23 +9,13 @@ import Foundation
 
 struct MockProductsApiService: ProductsAPIProtocol {
     
-    let products: [ProductsListResponse]
-    let error: Error?
+    let products: [Product]
     
-    init(products: [ProductsListResponse]) {
+    init(products: [Product]) {
         self.products = products
-        self.error = nil
-    }
-    
-    init(error: Error) {
-        self.error = error
-        self.products = [ProductsListResponse]()
     }
     
     func getAllProducts() async throws -> ProductAPIResponse {
-        if let error = self.error {
-            throw error
-        }
         return ProductAPIResponse(products: products)
     }
 }

@@ -8,39 +8,43 @@
 import SwiftUI
 
 struct ProductCellView: View {
-    var products: ProductsListResponse
+    public enum ProductCellViewConstraints: Double {
+        case cellImageHeight = 100
+        case cellImageWidth = 300
+        case detailPageImageHeight = 600
+        case detailPageImageWidth = 650
+    }
+
+    private var product: Product
+    init(product: Product) {
+        self.product = product
+    }
+
     var body: some View {
-        let url = URL(string: products.thumbnail ?? "")
         VStack(alignment: .leading) {
-            AsyncImage(
-                url: url,
-                content: { image in
-                    image.resizable()
-                        .aspectRatio(contentMode: .fit)
-                        .frame(maxWidth: 300, maxHeight: 100)
-                        .clipShape(Circle())
-                },
-                placeholder: {
-                    ProgressView()
-                }
-            )
-            VStack(alignment: .leading) {
-                
-                Text(products.title ?? "")
-                    .bold()
-                    .lineLimit(1)
-                
-                Text(products.productDescription ?? "")
-                    .font(.caption)
-                    .foregroundColor(.secondary)
-                    .lineLimit(5)
-            }
-            .padding(.leading)
+        buildProductImageView(for: product,
+                              imageWidth: ProductCellViewConstraints.cellImageWidth.rawValue,
+                              imageHeight: ProductCellViewConstraints.cellImageHeight.rawValue)
+            ProductInformationCellView(product: product)
         }
         .foregroundColor(.purple)
     }
 }
 
 #Preview {
-    ProductCellView(products: ProductsListResponse())
+    ProductCellView(product: Product())
+}
+
+struct ProductInformationCellView: View {
+    private var product: Product
+    init(product: Product) {
+        self.product = product
+    }
+
+    var body: some View {
+        VStack(alignment: .leading) {
+            ProductTitleAndDescriptionView(product: product)
+        }
+        .padding(.leading)
+    }
 }
