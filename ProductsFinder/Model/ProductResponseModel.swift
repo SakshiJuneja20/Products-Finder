@@ -26,21 +26,3 @@ struct Product: Codable, Identifiable {
         case price, rating, thumbnail
     }
 }
-
-// MARK: - ProductsListResponse extension for mock data
-extension Product {
-    static let mock = Product.mock()
-    static func mock(id: Int = 0,
-                     title: String = "iPhone 9",
-                     productDescription: String = "",
-                     price: Int? = 0,
-                     rating: Double = 0.0,
-                     thumbnail: String = "") -> Product {
-        return Product(id: id,
-                       title: title,
-                       productDescription: productDescription,
-                       price: price,
-                       rating: rating,
-                       thumbnail: thumbnail)
-    }
-}

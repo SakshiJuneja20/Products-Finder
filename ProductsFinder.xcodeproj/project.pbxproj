@@ -31,6 +31,9 @@
 		2E0255762B5C56E900309508 /* ProductsFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0255282B5C34CC00309508 /* ProductsFinderApp.swift */; };
 		2E2C69202B62E3440033D47E /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C691F2B62E3440033D47E /* ProductImageView.swift */; };
 		2E2C69212B62E5E20033D47E /* ProductImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2C691F2B62E3440033D47E /* ProductImageView.swift */; };
+		2E90A6CC2B68DB8500765625 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E90A6CB2B68DB8500765625 /* MockNetworkManager.swift */; };
+		2E98C82D2B68329D00547F65 /* ProductApiServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98C82C2B68329D00547F65 /* ProductApiServiceTests.swift */; };
+		2E98C82F2B6832B100547F65 /* NetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E98C82E2B6832B100547F65 /* NetworkManagerTests.swift */; };
 		2EF92F672B62BAA200791113 /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF92F662B62BAA200791113 /* ProductsListView.swift */; };
 		2EF92F682B62BAC200791113 /* ProductsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EF92F662B62BAA200791113 /* ProductsListView.swift */; };
 		2EF92F6B2B62BE5300791113 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 2EF92F6A2B62BE5300791113 /* .swiftlint.yml */; };
@@ -74,6 +77,9 @@
 		2E0255682B5C519E00309508 /* ProductsViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsViewModelTests.swift; sourceTree = "<group>"; };
 		2E02556A2B5C55D400309508 /* MockProductsApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProductsApiService.swift; sourceTree = "<group>"; };
 		2E2C691F2B62E3440033D47E /* ProductImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductImageView.swift; sourceTree = "<group>"; };
+		2E90A6CB2B68DB8500765625 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		2E98C82C2B68329D00547F65 /* ProductApiServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductApiServiceTests.swift; sourceTree = "<group>"; };
+		2E98C82E2B6832B100547F65 /* NetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerTests.swift; sourceTree = "<group>"; };
 		2EF92F662B62BAA200791113 /* ProductsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsListView.swift; sourceTree = "<group>"; };
 		2EF92F6A2B62BE5300791113 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
@@ -151,7 +157,10 @@
 		2E0255392B5C34CF00309508 /* ProductsFinderTests */ = {
 			isa = PBXGroup;
 			children = (
+				2E98C82E2B6832B100547F65 /* NetworkManagerTests.swift */,
+				2E98C82C2B68329D00547F65 /* ProductApiServiceTests.swift */,
 				2E0255682B5C519E00309508 /* ProductsViewModelTests.swift */,
+				2E90A6CB2B68DB8500765625 /* MockNetworkManager.swift */,
 				2E02556A2B5C55D400309508 /* MockProductsApiService.swift */,
 			);
 			path = ProductsFinderTests;
@@ -379,13 +388,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E98C82D2B68329D00547F65 /* ProductApiServiceTests.swift in Sources */,
 				2E02556B2B5C55D400309508 /* MockProductsApiService.swift in Sources */,
 				2E0255762B5C56E900309508 /* ProductsFinderApp.swift in Sources */,
 				2E0255752B5C56E600309508 /* ProductsViewModel.swift in Sources */,
+				2E98C82F2B6832B100547F65 /* NetworkManagerTests.swift in Sources */,
 				2E0255692B5C519E00309508 /* ProductsViewModelTests.swift in Sources */,
 				2EF92F682B62BAC200791113 /* ProductsListView.swift in Sources */,
 				2E0255702B5C56D900309508 /* NetworkManager.swift in Sources */,
 				2E0255742B5C56E400309508 /* ProductApiService.swift in Sources */,
+				2E90A6CC2B68DB8500765625 /* MockNetworkManager.swift in Sources */,
 				2E02556F2B5C56D700309508 /* ProductDetailsView.swift in Sources */,
 				2E2C69212B62E5E20033D47E /* ProductImageView.swift in Sources */,
 				2E0255712B5C56DC00309508 /* ProductResponseModel.swift in Sources */,
