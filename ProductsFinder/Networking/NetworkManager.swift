@@ -32,7 +32,7 @@ final class NetworkManager: NetworkRequestProtocol {
         let (data, response) = try await URLSession.shared.data(for: request)
         return verifyResponse(data: data, response: response)
     }
-    private func verifyResponse(data: Data, response: URLResponse) -> Result<Data, Error> {
+    func verifyResponse(data: Data, response: URLResponse) -> Result<Data, Error> {
         guard let httpResponse = response as? HTTPURLResponse else {
             return .failure(APIError.unknown)
         }

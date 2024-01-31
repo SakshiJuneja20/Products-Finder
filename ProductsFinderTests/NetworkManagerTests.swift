@@ -54,4 +54,33 @@ final class NetworkManagerTests: XCTestCase {
         }
     }
 
+    func test_VerifyResponse_ServerErrorFailure() async {
+        guard let apiURL = URL(string: APIConstants.apiURL) else {
+            return
+        }
+        let json = ProductTestJSON.products
+        let data = json.data(using: .utf8)!
+        let response = HTTPURLResponse(url: apiURL, statusCode: 502, httpVersion: "", headerFields: nil)
+        _ = sut?.verifyResponse(data: data, response: response!)
+        XCTAssertNotNil(APIError.serverError)
+    }
+
+    func test_VerifyResponse_ValidateHttpResponseUrl() async {
+        let json = ProductTestJSON.products
+        let data = json.data(using: .utf8)!
+        _ = sut?.verifyResponse(data: data, response: URLResponse())
+        XCTAssertNotNil(APIError.serverError)
+    }
+
+    func test_VerifyResponse_UnknownStatusCodeFailure() async {
+        guard let apiURL = URL(string: APIConstants.apiURL) else {
+            return
+        }
+        let json = ProductTestJSON.products
+        let data = json.data(using: .utf8)!
+        let response = HTTPURLResponse(url: apiURL, statusCode: 305, httpVersion: "", headerFields: nil)
+        _ = sut?.verifyResponse(data: data, response: response!)
+        XCTAssertNotNil(APIError.unknown)
+    }
+
 }

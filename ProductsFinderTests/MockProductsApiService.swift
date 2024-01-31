@@ -8,11 +8,22 @@
 import Foundation
 
 struct MockProductsApiService: ProductsAPIProtocol {
+
+    enum TestJsonType {
+        case validJson
+        case invalidJson
+    }
+
+    var jsonType = TestJsonType.validJson
+
     func getAllProducts() async throws -> ProductAPIResponse {
-        let json = ProductTestJSON.products
+        let json = jsonType == .validJson ? ProductTestJSON.products : ProductTestJSON.invalidJson
         let data = json.data(using: .utf8)!
-        let model = try JSONDecoder().decode(ProductAPIResponse.self, from: data)
-        return model
+        do {
+            return try JSONDecoder().decode(ProductAPIResponse.self, from: data)
+        } catch {
+            throw error
+        }
     }
 }
 
@@ -57,6 +68,19 @@ enum ProductTestJSON {
                     "https://cdn.dummyjson.com/product-images/2/thumbnail.jpg"
                 ]
             }
+        ]
+    }
+    """
+
+    static let invalidJson = """
+    {
+        "products": [
+                "id": 2,
+                "title": "iPhone X",
+                "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
+                "price": 899,
+                "discountPercentage": 17.94,
+                "rating": 4.44,
         ]
     }
     """

@@ -68,13 +68,7 @@ struct ProductTitleAndDescriptionView: View {
     }
 
     var body: some View {
-        Text(product.title ?? "")
-            .bold()
-            .lineLimit(1)
-        Text(product.productDescription ?? "")
-            .font(.caption)
-            .foregroundColor(.secondary)
-            .lineLimit(5)
+        buildReusableTextComponent(title: product.title ?? "", value: product.productDescription ?? "")
     }
 }
 
@@ -89,13 +83,18 @@ struct ProductDetailsPriceAndRatingView: View {
 
     var body: some View {
         HStack(spacing: 15) {
-            Text(title)
-                .bold()
-                .lineLimit(1)
-            Text(value)
-                .font(.caption)
-                .foregroundColor(.secondary)
-                .lineLimit(5)
+            buildReusableTextComponent(title: title, value: value)
         }
     }
+}
+
+@ViewBuilder
+func buildReusableTextComponent(title: String, value: String) -> some View {
+    Text(title)
+        .bold()
+        .lineLimit(1)
+    Text(value)
+        .font(.caption)
+        .foregroundColor(.secondary)
+        .lineLimit(5)
 }

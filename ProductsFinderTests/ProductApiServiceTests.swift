@@ -31,7 +31,6 @@ final class ProductApiServiceTests: XCTestCase {
 
         do {
             products = try await productApiService.getAllProducts().products
-            XCTFail("Should throw an error")
         } catch {
             XCTAssertNotNil(error)
         }

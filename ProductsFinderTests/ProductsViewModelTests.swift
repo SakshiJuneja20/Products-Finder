@@ -23,8 +23,6 @@ final class ProductsViewModelTests: XCTestCase {
     }
 
     func testGetCountProducts_3products_3() async {
-        let service = MockProductsApiService()
-        sut = ProductsViewModel(service: service)
         do {
             try await sut?.loadAllProducts()
         } catch {
@@ -51,6 +49,23 @@ final class ProductsViewModelTests: XCTestCase {
         let result = XCTWaiter.wait(for: [exp], timeout: 1.0)
         if result == XCTWaiter.Result.timedOut {
             XCTAssertEqual(sut?.products[0].title, "iPhone 9")
+        } else {
+            XCTFail("Delay interrupted")
+        }
+    }
+
+    func testFailure() async {
+        let service = MockProductsApiService(jsonType: .invalidJson)
+        sut = ProductsViewModel(service: service)
+        do {
+            try await sut?.loadAllProducts()
+        } catch {
+            XCTFail("Failed to load products")
+        }
+        let exp = expectation(description: "testGetProduct_3Products_returnFirstProduct Test after 1 second")
+        let result = XCTWaiter.wait(for: [exp], timeout: 1.0)
+        if result == XCTWaiter.Result.timedOut {
+            XCTAssertNotNil(sut?.error)
         } else {
             XCTFail("Delay interrupted")
         }
