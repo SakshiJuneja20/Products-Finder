@@ -30,5 +30,8 @@ https://dummyjson.com/docs
 
 ![Simulator Screenshot - iPhone 15 Pro - 2024-01-22 at 15 48 12](https://github.com/SakshiJuneja20/Products-Finder/assets/157313718/95701314-6f05-46f5-8187-8ac80e4358eb)
 ![Simulator Screenshot - iPhone 15 Pro - 2024-01-22 at 15 48 21](https://github.com/SakshiJuneja20/Products-Finder/assets/157313718/c47eeb55-dd6f-46c5-9eaf-12d81c678e81)
+
+**Code Coverage**
+
 <img width="1490" alt="CodeCoverage" src="https://github.com/SakshiJuneja20/Products-Finder/assets/157313718/d84cb0dd-c4c3-43c4-9867-d9ba4ccb9e67">
 
