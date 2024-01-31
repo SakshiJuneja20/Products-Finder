@@ -33,5 +33,6 @@ https://dummyjson.com/docs
 
 **Code Coverage**
 
-<img width="1490" alt="CodeCoverage" src="https://github.com/SakshiJuneja20/Products-Finder/assets/157313718/d84cb0dd-c4c3-43c4-9867-d9ba4ccb9e67">
+<img width="1378" alt="CodeCoverage" src="https://github.com/SakshiJuneja20/Products-Finder/assets/157313718/3c9d2313-ba5d-431d-a651-45e943225feb">
+
 
